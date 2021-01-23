@@ -34,7 +34,9 @@
 */
 
 // build the nav
-
+const mysections= document.querySelectorAll("section");
+const myul=document.querySelector("#test_ul");
+const fragment= document.createDocumentFragment();
 
 // Add class 'active' to section when near top of viewport
 
@@ -53,5 +55,6 @@
 // Scroll to section on link click
 
 // Set sections as active
+mysections.forEach
 
 
